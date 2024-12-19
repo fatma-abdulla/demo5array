@@ -30,5 +30,6 @@ xx[3] = "nora";
 
 for (int i = 1; i < xx.Length; i++)
 {
-    Console.WriteLine(xx[i]);
+    //Console.WriteLine(xx[i]);
+    Console.WriteLine("print " + xx[i].ToUpper());
 }
